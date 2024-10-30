@@ -1,0 +1,110 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-color: #161616;
+}
+
+.navbar{
+   height: 60px;
+   background-color: #2E2E2E;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo{
+   color: white;
+   padding-left: 40px;
+   cursor: default;
+}
+
+.navbar-links{
+   width: 20%;
+}
+
+.navbar-menus{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.navbar-menus li{
+   list-style-type: none;
+}
+
+.navbar-menus li a{
+   text-decoration: none;
+   color: white;
+}
+
+.container{
+   margin: 20px;
+   padding: 40px;
+   background-color: #2E2E2E;
+   color: white;
+   border-radius: 20px;
+   display: flex;
+}
+
+.profiles{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+}
+
+.profile-container{
+   width: 80%;
+}
+
+.profile-picture img{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 100%;
+}
+
+.profile-data{
+   margin-left: 50px;
+}
+
+.vertical{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.mini-containers{
+   margin-top: 10px;
+}
+
+.mini-row{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+.mini{
+   background-color: #161616;
+   width: 45%;
+   height: 30px;
+   padding: 20px;
+   border-radius: 20px;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.mini-icons a{
+   text-decoration: none;
+   color: white;
+}
+
+.footer-icons i{
+   font-size: 24px;
+}
